@@ -60,8 +60,8 @@ In questo file csv sono riportate tutti i problemi riscontrati nei sistemi dagli
 
 Nel dettaglio:
 - Gli indici della tabella (prima colonna) sono i codici identificativi dei problemi
-- La prima colonna ```Problema``` contiene una breve descrizione del problema riscontrato
-- Dalla seconda colonna sono elencati con ```Expert X``` tutti i valutatori (esperti di dominio e di usabilità) con i rispettivi voti dati da 0 a 4 per ogni problema riscontrato. Il valore ```X``` deve essere sostituito con il numero identificativo del valutatore
+- La seconda colonna ```Problema``` contiene una breve descrizione del problema riscontrato
+- Dalla terza colonna sono elencati con ```Expert X``` tutti i valutatori (esperti di dominio e di usabilità) con i rispettivi voti dati da 0 a 4 per ogni problema riscontrato. Il valore ```X``` deve essere sostituito con il numero identificativo del valutatore
 - La colonna ```Euristiche``` contiene l'elenco delle euristiche violate. Un esempio utilizzando le euristiche di Nielsen: se il problema viola l'euristica 7 scriverò ```E7```: se il problema viola l'euristica 2, 3 e 5 scriverò ```E2-E3-E5```
 - L'ultima colonna ```Id valutatori``` contiene tutti gli id dei valutatori che hanno trovato il rispettivo problema. Esempio: il valutatore esperto di usabilità 2 e il valutatore esperto di dominio 1 ha trovato il problema quindi scriverò ```EU2-ED1```
 
@@ -88,7 +88,7 @@ La tabella ha la seguente struttura:
 Ogni colonna rappresenta la compilazione di un questionario
 - nelle prime 4 righe vengono riportate le informazioni personali
 - nelle successive righe viene riportato il punteggio che ogni utente ha dato come risposta alla domanda del questionario UEQ
-- nell'ultima riga viene riportato la risposta alla domanda *Quanto consiglieresti ad un amico il sistema s da 1 a 10?*
+- nell'ultima riga viene riportato la risposta alla domanda *Quanto consiglieresti ad un amico il sistema s da 0 a 10?*
 
 ## Contatti
 
