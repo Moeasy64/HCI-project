@@ -24,6 +24,7 @@ Nello specifico ```stats_ium.ipynb``` si occupa sia statistiche e grafici su eff
 Di sequito vengono riportati alcuni miglioramenti da poter effettuare o implementare:
 - Riprogettare il sistema di input dei dati. Attualmente risulta essere confusionario, poco pratico e prono ad errori
 - Rappresentare con uno scatter plot l'esperienza degli utenti visualizzando quindi l'expertise su usabilità e sul dominio per ognuno
+- Migliorare il sistema di prioritizzazione nella valutazione euristica seguendo le direttive date a lezione
 - Automatizzare la stima delle euristiche violate presenti in un sitema (usando la formula ```T = (x * y) / z``` )
 - Nel grafico a barre riguardo la distribuzione delle euristiche è possibile distinguerle in base al settore di appartenenza (percezione, cognizione, errori)
 - Inserire le informazioni riguardo l'intervallo di confidenza nei grafici relativi all'efficiacia di un sistema
