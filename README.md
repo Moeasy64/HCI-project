@@ -23,15 +23,16 @@ Nello specifico ```stats_ium.ipynb``` si occupa sia statistiche e grafici su eff
 ## Possibili miglioramenti e lavori futuri
 Di sequito vengono riportati alcuni miglioramenti da poter effettuare o implementare:
 - Riprogettare il sistema di input dei dati. Attualmente risulta essere confusionario, poco pratico e prono ad errori
-- Rappresentrae con uno scatter plot l'esperienza degli utenti visualizzando quindi l'expertise su usabilità e sul dominio per ognuno
+- Rappresentare con uno scatter plot l'esperienza degli utenti visualizzando quindi l'expertise su usabilità e sul dominio per ognuno
 - Automatizzare la stima delle euristiche violate presenti in un sitema (usando la formula ```T = (x * y) / z``` )
-- Nel grafico a barre riguardo la distribuzione delle euristiche distinguerle in base al settore di appartenenza (percezione, cognizione, errori)
+- Nel grafico a barre riguardo la distribuzione delle euristiche è possibile distinguerle in base al settore di appartenenza (percezione, cognizione, errori)
 - Inserire le informazioni riguardo l'intervallo di confidenza nei grafici relativi all'efficiacia di un sistema
 - Possibilità di rappresentare l'efficienza di un sistema con un violin plot (oltre al box plot già presente)
 - Adottare il metodo del gorilla come output automatico di ogni test statistico effettuato
 - Arrotondare ogni decimale ad un formato di lettura migliore (max due cifre dopo la virgola)
 - Sui box plot dei questionari inserire sull'asse delle y gli estremi proposti dall'item del questionario (presenti ora nel titolo del grafico)
-- Implementare delle statistiche raggruppando gli utenti per età, istruzione e posizione lavorativa
+- Sui box plot dei questionari utilizzare lo stesso range di valori per l'asse y (da 1 a 7)
+- Implementare delle statistiche aggiuntive raggruppando gli utenti per età, istruzione e posizione lavorativa
 - ...
 
 
