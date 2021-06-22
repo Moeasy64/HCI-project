@@ -20,6 +20,20 @@ Nello specifico ```stats_ium.ipynb``` si occupa sia statistiche e grafici su eff
 - ```seaborn``` per i grafici
 - ```scipy``` per le statistiche
 
+## Possibili miglioramenti e lavori futuri
+Di sequito vengono riportati alcuni miglioramenti da poter effettuare o implementare:
+- Rappresentrae con uno scatter plot l'esperienza degli utenti visualizzando quindi l'expertise su usabilità e sul dominio per ognuno
+- Automatizzare la stima delle euristiche violate presenti in un sitema (usando la formula ```T = (x * y) / z``` )
+- Nel grafico a barre riguardo la distribuzione delle euristiche distinguerle in base al settore di appartenenza (percezione, cognizione, errori)
+- Inserire le informazioni riguardo l'intervallo di confidenza nei grafici relativi all'efficiacia di un sistema
+- Possibilità di rappresentare l'efficienza di un sistema con un violin plot (oltre al box plot già presente)
+- Adottare il metodo del gorilla come output automatico di ogni test statistico effettuato
+- Arrotondare ogni decimale ad un formato di lettura migliore (max due cifre dopo la virgola)
+- Sui box plot dei questionari inserire sull'asse delle y gli estremi proposti dall'item del questionario (presenti ora nel titolo del grafico)
+- Implementare delle statistiche raggruppando gli utenti per età, istruzione e posizione lavorativa
+- ...
+
+
 ## Istruzioni
 
 Sono necessari degli step iniziali per permettere il corretto funzionamento di entrambi i notebook. 
